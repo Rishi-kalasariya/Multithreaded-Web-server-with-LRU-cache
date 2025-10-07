@@ -16,7 +16,6 @@
 - Proxy Server do → 
   - It speeds up the process and reduces the traffic on the server side.
   - It can be used to restrict user from accessing specific websites.
-  - A good proxy will change the IP such that the server wouldn’t know about the client who sent the request.
   - Changes can be made in Proxy to encrypt the requests, to stop anyone accessing the request illegally from your client.
  
 ##### OS Component Used ​
@@ -26,8 +25,4 @@
 - Cache (LRU algorithm is used in it)
 
 ##### Limitations ​
-- If a URL opens multiple clients itself, then our cache will store each client’s response as a separate element in the linked list. So, during retrieval from the cache, only a chunk of response will be send and the website will not open
 - Fixed size of cache element, so big websites may not be stored in cache.
-
-# Note:
-- This code can only be run in Linux Machine. Please disable your browser cache.
